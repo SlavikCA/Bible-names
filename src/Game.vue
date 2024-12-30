@@ -6,7 +6,7 @@ import { LetterState } from './types'
 
 // Get word of the day
 const answer = getWordOfTheDay()
-
+// console.info(answer)
 // Board state. Each tile is represented as { letter, state }
 const board = $ref(
   Array.from({ length: 6 }, () =>
@@ -17,7 +17,6 @@ const board = $ref(
   )
 )
 
-// Current active row.
 let currentRowIndex = $ref(0)
 const currentRow = $computed(() => board[currentRowIndex])
 
@@ -43,7 +42,7 @@ onUnmounted(() => {
 
 function onKey(key: string) {
   if (!allowInput) return
-  if (/^[a-zA-Z]$/.test(key)) {
+  if (/^[а-яА-Я]$/.test(key)) {
     fillTile(key.toLowerCase())
   } else if (key === 'Backspace') {
     clearTile()
