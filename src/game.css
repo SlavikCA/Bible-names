@@ -22,6 +22,12 @@ header {
   top: 0.5em;
 }
 
+#tg-link {
+  position: absolute;
+  left: 1em;
+  top: 0.5em;
+}
+
 .correct,
 .present,
 .absent {

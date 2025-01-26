@@ -178,6 +178,12 @@ function genResultGrid() {
     </div>
   </Transition>
   <header>
+    <a
+      id="tg-link"
+      href="https://t.me/RuBibleGames"
+      target="_blank"
+      >Telegram</a
+    >
     <h1>VVORDLE</h1>
     <a
       id="source-link"
