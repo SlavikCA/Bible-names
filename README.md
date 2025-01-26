@@ -1,9 +1,20 @@
-# Vue Wordle
+# Игра "Библейские имена-5"
 
-[Live demo](https://vue-wordle.netlify.app/)
+[Библейский имена - 5](https://names.acloud.app/)
 
-A Vue implementation of the [Wordle game](https://www.powerlanguage.co.uk/wordle/). This is just for fun and doesn't aim to 100% replicate the original.
+[Telegram](https://t.me/RuBibleGames)
 
-You can make your own Wordle and send it to friends by base64-encoding a word and include it as the URL query, e.g. https://vue-wordle.netlify.app/?YmxpbXA= (this will also allow words that are not in the dictionary.)
+Игра, основанная на [Wordle game](https://www.nytimes.com/games/wordle/index.html). 
 
-This repository is open sourced for learning purposes only - the original creator(s) of Wordle own all applicable rights to the game itself.
+Вот здесь можно посмотреть все имена, которые используются в игре:
+- https://github.com/SlavikCA/Bible-names/blob/main/src/words.ts
+
+Разработка игры не закончена, поэтому мы с радостью готовы принять от вас Pull Requests (запросы с добавленим имён, исправлениями...)  
+Это можно сделать отредактировав любой файл:
+
+![Редактирование](.github/edit.png)
+
+Планы:
+- [ ] сделать landing page, на которой объяснить правила игры
+- [ ] сделать возможность игры в команде, друг с другом
+- [ ] сделать версию не только на 5, но и на другое количество букв: 4, 6, 7 ...
