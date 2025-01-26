@@ -2,9 +2,9 @@
   "name": "vue-wordle",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 5000 --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 5000 --host"
   },
   "dependencies": {
     "vue": "^3.2.25"
